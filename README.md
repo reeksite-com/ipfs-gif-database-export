@@ -22,3 +22,11 @@ while IFS= read -r cid; do
     ipfs pin add "$cid"
 done < pins.txt
 ```
+
+## Reporting Abuse
+
+These exports are generated from user contributed content. The exports themselves don't include the GIF files, but they contain information on how to retrieve them.
+
+If you find a GIF in the list that contains copyright violations, DMCA, GDPR, illegal content, or malware, please:
+1. Report the CID to the [IPFS Bad bits deny list](https://badbits.dwebops.pub/).
+2. Locate the GIF on https://gif.reeksite.com/ and click the report button.
